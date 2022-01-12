@@ -1,8 +1,8 @@
 @font-face { font-family: PoppinsLight; src: url("./font/FontsFree-Net-Poppins-Light.ttf"); } 
 
+* { margin: 0; padding: 0; }
+
 html, body {
-    margin: 0;
-    padding: 0;
     font-family: 'DM Sans';
     width: 100%;
 }
@@ -26,13 +26,11 @@ header{
 }
 
 #header-options{
-    display: inline-flex;
-    justify-content: center;
     background-color: #643654;
     color: white;
     font-weight: bold;
-    padding: 10px;
-    flex-direction: row-reverse;
+    padding: 20px;
+    
     float: none;
 }
 
@@ -47,10 +45,15 @@ span{
 #header-logo{
     background-color: #643654;
     position: absolute;
-    float: left;
+    top: 12px;
+    left: 10px;
     color: white;
     font-family: 'PoppinsLight';
     font-size: 14px;
+}
+
+#options{
+    display: inline-block;
 }
 
 a{
@@ -183,10 +186,19 @@ footer{
 
 }
 
+hr{
+    display: none;
+}
+
 @media screen and (max-device-width: 768px) {
+
+    hr{
+        display: block;
+    }
 
     #options{ 
         text-align: left;
+        display: block;
         
     }
 
@@ -219,12 +231,15 @@ footer{
         */
     }
 
-    html{
+    html, body{
         width: 100%;
     }
 
     #header-options{
         padding: 15px 0;
+        display: inline-flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
     }
 
     .menu{
@@ -240,6 +255,7 @@ footer{
     #header-logo{
         position: absolute;
         top: 12px;
+        left: 10px;
         float: none;
         display: inline-block;
        
