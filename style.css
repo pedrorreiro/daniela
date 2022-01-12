@@ -16,17 +16,23 @@ h2, h3, h4{
 }
 
 header{
-    background-color: #643654;
     justify-content: center;
-    padding: 5px 10px;
     text-align: center;
     
 }
 
+#alternar, #hamburguer{
+    display: none;
+}
+
 #header-options{
+    display: inline-flex;
+    justify-content: center;
+    background-color: #643654;
     color: white;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
+    flex-direction: row-reverse;
     float: none;
 }
 
@@ -39,6 +45,7 @@ span{
 }
 
 #header-logo{
+    background-color: #643654;
     position: absolute;
     float: left;
     color: white;
@@ -177,13 +184,51 @@ footer{
 }
 
 @media screen and (max-device-width: 768px) {
+
+    #options{ 
+        text-align: left;
+        
+    }
+
+    #hamburguer{
+        display: block;
+    }
+
+    #alternar:checked ~ #options{
+        margin-top: 20vh;
+        /*position: relative;
+        right: 0 */;
+        height: 90vh; 
+        transition: all 1.5s;
+        overflow: hidden;
+    }
+
+    .menu{
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+
+    #alternar:not(:checked) ~ #options{
+        height: 0px;
+        transition: all 1.5s;
+        overflow: hidden;
+        /* 
+        position: relative;
+        right: -100%;
+        */
+    }
+
     html{
         width: 100%;
     }
 
-    #options{
-        display: flex;
-        flex-direction: column;
+    #header-options{
+        padding: 15px 0;
+    }
+
+    .menu{
+      display: block;
 
     }
 
@@ -193,8 +238,11 @@ footer{
     }
 
     #header-logo{
-        position: static;
+        position: absolute;
+        top: 12px;
         float: none;
+        display: inline-block;
+       
     }
 
     #foto-dani{
