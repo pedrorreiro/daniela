@@ -25,6 +25,11 @@ header{
     display: none;
 }
 
+.dropAtendimento{
+    background-color: rgb(180,131,156, 0.1) !important;
+}
+
+
 #header-options{
     background-color: #643654;
     color: white;
@@ -218,7 +223,7 @@ hr{
         /*position: relative;
         right: 0 */;
         height: 90vh; 
-        transition: all 1.5s;
+        transition: all 1s;
         overflow: hidden;
     }
 
@@ -230,7 +235,7 @@ hr{
 
     #alternar:not(:checked) ~ #options{
         height: 0px;
-        transition: all 1.5s;
+        transition: all 1s;
         overflow: hidden;
         /* 
         position: relative;
