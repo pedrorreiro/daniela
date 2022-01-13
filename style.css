@@ -190,6 +190,13 @@ hr{
     display: none;
 }
 
+#seta{
+    position: fixed;
+    width: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
 @media screen and (max-device-width: 768px) {
 
     hr{
