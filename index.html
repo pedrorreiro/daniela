@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./menu.css" />
     <link rel="stylesheet" href="./footer.css" />
     <link rel="stylesheet" href="./servico.css" />
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <title>Daniela C. Morgan</title>
 </head>
+
 <body>
     <header>
         <div id="header-logo">
@@ -30,37 +38,39 @@
 
             <input id="alternar" type="checkbox">
             <label for="alternar">
-                <img id="hamburguer" src="./img/menuIcon.png" width="35px" height="25px"/>    
+                <img id="hamburguer" src="./img/menuIcon.png" width="35px" height="25px" />
             </label>
 
-            <div id="options"> 
-                <a href="index.html" class="text-decoration-none menu">Home</a>
+            <div id="options">
+                <a id="home" href="index.html" class="text-decoration-none menu">Home</a>
                 <hr>
-                <a href="sobre-mim.html" class="text-decoration-none menu">Sobre mim</a>
+                <a id="sobreMim" href="sobre-mim.html" class="text-decoration-none menu">Sobre mim</a>
                 <hr>
-                <a href="#" class="text-decoration-none menu">Contato</a>
+                <a id="contato" href="#" class="text-decoration-none menu">Contato</a>
                 <hr>
-                <a class="text-decoration-none dropdown menu dropdown-toggle" data-toggle="dropdown">
-                      Atendimento
+                <a id="op-atendimento" class="text-decoration-none dropdown menu dropdown-toggle"
+                    data-toggle="dropdown">
+                    Atendimento
                 </a>
-                    <div class="dropdown-menu dropAtendimento" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="online.html">Online</a>
-                      <hr>
-                      <a class="dropdown-item" href="#">Psicoterapia</a>
-                      <hr>
-                      <a class="dropdown-item" href="#">Orientação Familiar</a>
-                      <hr>
-                      <a class="dropdown-item" href="#">Treinamento para empresas</a>
-                      <hr>
-                      <a class="dropdown-item" href="#">Projetos personalizados</a>
-                    </div>
-                  </div>
+                
+                <div class="dropdown-menu dropAtendimento" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="online.html">Online</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Psicoterapia</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Orientação Familiar</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Treinamento para empresas</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Projetos personalizados</a>
+                </div>
             </div>
+        </div>
 
         </div>
 
     </header>
- 
+
     <div id="sobre-mim">
         <h2 style="text-align: center;">Sobre mim</h2><br>
         <div id="dados">
@@ -77,7 +87,7 @@
                 interesse pela psicologia como possibilidade de desdobramentos e criações.
             </span>
             <br>
-         
+
             <div style="clear: both;"></div>
 
         </div>
@@ -88,9 +98,9 @@
                     Ler mais
                 </div>
             </a>
-            
+
         </div>
-        
+
     </div>
 
     <div id="servicos">
@@ -99,12 +109,14 @@
 
         <div id="servicos-list">
             <div class="servico">
-                <img class="servico-img" src="./img/casa.png" data-toggle="collapse" href="#collapseAtendimento" aria-expanded="false" aria-controls="collapseAtendimento">
+                <img class="servico-img" src="./img/casa.png" data-toggle="collapse" href="#collapseAtendimento"
+                    aria-expanded="false" aria-controls="collapseAtendimento">
                 <h4>Atendimento Online</h4>
 
                 <div class="collapse servico-descricao" id="collapseAtendimento">
                     <div>
-                        O atendimento online funciona através de sessões com duração de <strong>50 minutos</strong> e são
+                        O atendimento online funciona através de sessões com duração de <strong>50 minutos</strong> e
+                        são
                         realizadas por meio de <strong>videoconferências</strong> (chamadas que aliam vídeo e voz) com
                         horários previamente agendados, a sessão online não é diferente da sessão
                         presencial, porque esse tipo de experiência é muito semelhante àquela vivenciada em
@@ -118,21 +130,25 @@
                                 Ler mais
                             </div>
                         </a>
-                        
+
                     </div>
                 </div>
 
             </div>
 
             <div class="servico">
-                <img class="servico-img" src="./img/cerebro.png" data-toggle="collapse" href="#collapsePsicoterapia" aria-expanded="false" aria-controls="collapsePsicoterapia">
+                <img class="servico-img" src="./img/cerebro.png" data-toggle="collapse" href="#collapsePsicoterapia"
+                    aria-expanded="false" aria-controls="collapsePsicoterapia">
                 <h4>Psicoterapia</h4>
 
                 <div class="collapse servico-descricao" id="collapsePsicoterapia">
                     <div>
-                        A psicoterapia é um processo estruturado com <strong>técnicas psicológicas</strong> que podem ser
-                        usadas pelo profissional psicólogo, em pessoas que buscam lidar com suas <strong>emoções</strong>
-                        e <strong>sentimentos</strong> de forma positiva, além de reduzir e/ou tratar sintomas, transtornos e
+                        A psicoterapia é um processo estruturado com <strong>técnicas psicológicas</strong> que podem
+                        ser
+                        usadas pelo profissional psicólogo, em pessoas que buscam lidar com suas
+                        <strong>emoções</strong>
+                        e <strong>sentimentos</strong> de forma positiva, além de reduzir e/ou tratar sintomas,
+                        transtornos e
                         doenças mentais. A duração e o tipo de terapia utilizada dependerão dos sintomas,
                         gravidade da situação, necessidades pessoais e desejos da pessoa.<br><br>
                     </div>
@@ -143,21 +159,23 @@
                                 Ler mais
                             </div>
                         </a>
-                        
+
                     </div>
                 </div>
             </div>
 
             <div class="servico">
-                <img class="servico-img" src="./img/familia.png" data-toggle="collapse" href="#collapseOrientacao" aria-expanded="false" aria-controls="collapseOrientacao">
+                <img class="servico-img" src="./img/familia.png" data-toggle="collapse" href="#collapseOrientacao"
+                    aria-expanded="false" aria-controls="collapseOrientacao">
                 <h4>Orientação Familiar</h4>
 
                 <div class="collapse servico-descricao" id="collapseOrientacao">
                     <div>
-                        A orientação familiar com foco no <strong>tratamento</strong> tem o objetivo de capacitar os familiares
+                        A orientação familiar com foco no <strong>tratamento</strong> tem o objetivo de capacitar os
+                        familiares
                         no que diz respeito a conhecimentos e estratégias de manejo de comportamentos
-                        problemáticos (crianças e adolescentes). <br><br> 
-                        
+                        problemáticos (crianças e adolescentes). <br><br>
+
                         Por outro lado, a orientação familiar com foco
                         na <strong>promoção e prevenção</strong> (saúde e educação) visa desenvolver práticas positivas,
                         com vistas a prevenir o surgimento de comportamentos indesejáveis, exercitar a
@@ -190,15 +208,17 @@
     <div id="footer-content">
         <img class="foot-div" id="img-footer-logo" src="./img/logo-footer.png">
 
-        <span class="foot-div" style="text-align: justify;">Daniela Caramori Morgan é graduada em Psicologia<br> e Especialista pela Universidade
+        <span class="foot-div" style="text-align: justify;">Daniela Caramori Morgan é graduada em Psicologia<br> e
+            Especialista pela Universidade
             Federal de São Paulo<br> - Departamento de Neurologia e Neurocirurgia.
         </span>
-        
+
         <div class="foot-div">
             <p>Redes Sociais</p>
 
             <div id="redes-sociais">
-                <a href="https://api.whatsapp.com/send/?phone=5511975895625&text=Ol%C3%A1%2C+Daniela%21+Me+interessei+pelo+seu+trabalho+e+gostaria+de+marcar+um+atendimento.+Como+posso+prosseguir%3F&app_absent=0" target="_blank">
+                <a href="https://api.whatsapp.com/send/?phone=5511975895625&text=Ol%C3%A1%2C+Daniela%21+Me+interessei+pelo+seu+trabalho+e+gostaria+de+marcar+um+atendimento.+Como+posso+prosseguir%3F&app_absent=0"
+                    target="_blank">
                     <img class="redeSocial" src="./img/wpp.png">
                 </a>
 
@@ -213,9 +233,9 @@
                 <a href="https://www.linkedin.com/in/daniela-caramori-morgan-1b554529/" target="_blank">
                     <img class="redeSocial" src="./img/linkedin.png">
                 </a>
-                
+
             </div>
-            
+
         </div>
         <div style="clear: both;"></div><br>
     </div>
@@ -226,7 +246,8 @@
         <p>©2022. Daniela Caramori Morgan. Todos os direitos reservados.</p>
         <p> Site desenvolvido por </p>
     </div>
-    
+
 
 </footer>
+
 </html>

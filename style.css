@@ -82,6 +82,14 @@ a{
     text-align: justify;
 }
 
+#opcoesAtendimento{
+    display: none;
+}
+
+#opcoesAtendimento a{
+    text-align: left;
+}
+
 #sobre-mim{
     padding: 30px 50px;
 
