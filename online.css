@@ -1,0 +1,59 @@
+h2, p, h4{
+    font-family: 'PoppinsLight';
+}
+
+section{
+    padding: 30px 50px;
+}
+
+.requisitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-requisitos{
+    width: 30%;
+}
+
+#relaxar{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-device-width: 768px) {
+    .requisitos{
+        flex-direction: column;
+    }
+
+    .img-requisitos{
+        width: 50%;
+    }
+
+    #relaxar{
+        flex-direction: column;
+    }
+
+    #relaxar img{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .info img{
+        margin-bottom: 10px;
+    }
+
+    #autorizado img{
+        width: 50%;
+    }
+}
