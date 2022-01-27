@@ -33,7 +33,7 @@ header{
     background-color: #643654;
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
     
     float: none;
 }
@@ -57,12 +57,19 @@ span{
 }
 
 #options{
-    display: inline-block;
+    width: 80%;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu{
