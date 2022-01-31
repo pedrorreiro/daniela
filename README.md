@@ -1,3 +1,3 @@
 # daniela
 
-Projeto pessoal para uma um site de uma Psicóloga.
+Projeto pessoal para o site de uma Psicóloga.
