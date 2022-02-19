@@ -60,10 +60,6 @@ span{
     font-size: 14px;
 }
 
-#titulo{
-    font-family: 'AutumnChant';
-}
-
 #options{
     width: 80%;
     height: 40px;
@@ -188,10 +184,6 @@ hr{
 }
 
 @media screen and (max-device-width: 768px) {
-
-    #titulo{
-        font-size: 12px;
-    }
 
     hr{
         display: block;
