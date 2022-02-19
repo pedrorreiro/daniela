@@ -28,7 +28,7 @@ opAtendimento.addEventListener("click", function () {
     
         var hrs = document.getElementsByTagName("hr");
     
-        for (let i = 0; i < hrs.length; i++) {
+        for (let i = 0; i < 3; i++) {
             hrs[i].style.display = display;
         }
     
