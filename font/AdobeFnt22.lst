@@ -1,0 +1,51 @@
+%!Adobe-FontList 1.22
+%Locale:0x416
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AutumnChant
+FamilyName:Autumn Chant
+StyleName:Regular
+FullName:Autumn Chant
+MenuName:Autumn Chant
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\pedro\Desktop\Projetos\daniela\Font\Autumn-Chant.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:14688
+FileModTime:1645135295
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Autumn Chant
+NameArray:0,Win,1,Autumn Chant
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Poppins-Light
+FamilyName:Poppins
+StyleName:Light
+FullName:Poppins Light
+MenuName:Poppins Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\pedro\Desktop\Projetos\daniela\Font\FontsFree-Net-Poppins-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145936
+FileModTime:1643678863
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Poppins Light
+NameArray:0,Win,16,Poppins
+%EndFont
+

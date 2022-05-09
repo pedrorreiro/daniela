@@ -85,12 +85,15 @@ a{
 }
 
 #descricao{
- 
+    text-align: center;
     font-size: 18px;
 }
 
 #dados{
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #opcoesAtendimento{
@@ -131,6 +134,7 @@ a{
     justify-content: center;
     margin-top: 75px;
     align-items: center;
+    align-content: center;
 }
 
 .servico{
@@ -156,8 +160,9 @@ a{
 }
 
 #foto-dani{
-    width: 35%;
-    margin-right: 30px;
+    margin-bottom: 40px;
+    width: 18%;
+    border-radius: 320px;
     float: left;
 }
 
@@ -179,7 +184,14 @@ hr{
 #seta{
     position: fixed;
     width: 20px;
-    right: 20px;
+    right: 33px;
+    bottom: 120px;
+}
+
+#wpp{
+    position: fixed;
+    width: 70px;
+    right: 10px;
     bottom: 20px;
 }
 
@@ -234,7 +246,7 @@ hr{
     }
 
     #header-options{
-        padding: 15px 0;
+        padding: 20px;
         display: inline-flex;
         justify-content: space-around;
         flex-direction: row-reverse;
@@ -261,8 +273,12 @@ hr{
 
     #foto-dani{
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-right: 0;
+    }
+
+    #descricao{
+        text-align: justify;
     }
 
     #ler-mais{

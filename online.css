@@ -21,6 +21,38 @@ section{
     align-items: center;
 }
 
+#cadeado{
+    width: 240px;
+}
+
+#flexivel{
+    width: 240px;
+}
+
+#beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.beneficio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.beneficio img{
+    width: 250px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.beneficio p{
+    font-size: 18px;
+}
+
 .info{
     display: flex;
     align-items: center;
@@ -32,8 +64,25 @@ section{
         flex-direction: column;
     }
 
+    #beneficios{
+        flex-direction: column;
+    }
+
+    .beneficio img{
+        width: 160px !important;
+        height: 40% !important;
+    }
+
+    .itemrequisito{
+        padding: 20px;
+    }
+
     .img-requisitos{
         width: 50%;
+    }
+
+    .beneficio p{
+        margin-bottom: 50px;
     }
 
     #relaxar{
