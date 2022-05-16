@@ -195,7 +195,17 @@ hr{
     bottom: 20px;
 }
 
+#imgTop{
+    width: 50%;
+    height: 500px;
+}
+
 @media screen and (max-device-width: 768px) {
+
+    #imgTop{
+        width: 100%;
+        height: 300px;
+    }
 
     hr{
         display: block;
